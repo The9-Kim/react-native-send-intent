@@ -102,6 +102,9 @@ var SendIntentAndroid = {
     openChromeIntent(dataUri) {
         return RNSendIntentAndroid.openChromeIntent(dataUri);
     },
+    openAppWithUri(intentUri, extras) {
+        return RNSendIntentAndroid.openAppWithUri(intentUri, extras || {});
+    },
     openFileChooser(options, title) {
         return RNSendIntentAndroid.openFileChooser(options, title);
     },
